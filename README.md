@@ -54,20 +54,6 @@ The project includes an interactive Streamlit application that allows users to:
 - View prediction confidence
 - View previous predictions during the session
 
-## Project Structure
-
-```text
-News-Project/
-│
-├── app.py
-├── news_classification.ipynb
-├── news_model.pkl
-├── tfidf_vectorizer.pkl
-├── requirements.txt
-└── README.md
-```
-
-
 ## ✨ Features
 
 - 📰 **Real/Fake News Classification**  
@@ -93,10 +79,60 @@ News-Project/
 
 ## 📊 Results
 
-Two machine learning models were evaluated for fake and real news classification:
+Two machine learning models were evaluated for fake and real news classification.
 
 | Model | Accuracy | Precision | Recall | F1-Score |
+|---|---:|---:|---:|---:|
 | Logistic Regression | 99.22% | 98.89% | 99.49% | 99.19% |
 | Multinomial Naive Bayes | 95.19% | 94.65% | 95.31% | 94.98% |
 
 Logistic Regression was selected as the final model and integrated into the Streamlit application.
+
+## Project Structure
+
+```text
+News-Project/
+│
+├── app.py
+├── news_classification.ipynb
+├── news_model.pkl
+├── tfidf_vectorizer.pkl
+├── requirements.txt
+└── README.md
+```
+
+## ▶️ How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ZaraSiddiqi7/Fake-News-Detection-Identifying-Real-and-Fake-News.git
+```
+
+### 2. Open the Project Folder
+
+```bash
+cd news-project
+```
+
+### 3. Install the Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+### 5. Open the Application
+
+After running the command, open the local URL provided by Streamlit in your browser.
+
+## 💼 Internship
+
+This project was developed as part of my **Data Analyst Internship at Elevate Labs**.
+
+The project focuses on using Natural Language Processing (NLP) and Machine Learning to classify news articles as Real or Fake.
