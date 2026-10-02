@@ -65,7 +65,7 @@ News-Project/
 ├── tfidf_vectorizer.pkl
 ├── requirements.txt
 └── README.md
-
+```
 
 
 ## ✨ Features
