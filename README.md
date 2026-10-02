@@ -6,6 +6,29 @@ A machine learning project developed as part of the **Elevate Labs Data Analyst 
 
 The objective of this project is to build a machine learning model that can classify news articles as **Real or Fake** based on their textual content.
 
+## ✨ Features
+
+- 📰 **Real/Fake News Classification**  
+  Classifies a news article as Real or Fake using a trained machine learning model.
+
+- 📊 **Confidence Breakdown**  
+  Displays a visual percentage breakdown showing how strongly the model predicts the article as Real or Fake.
+
+- 📄 **PDF File Upload**  
+  Users can upload a PDF containing a news article, and the application extracts the text for classification.
+
+- 📝 **TXT File Upload**  
+  Users can upload a `.txt` file containing news article text for analysis.
+
+- ✍️ **Manual Article Input**  
+  Users can directly paste or type a news article into the application.
+
+- 🕒 **Prediction History**  
+  The application keeps a history of articles checked during the current session, including the prediction and confidence.
+
+- 🗑️ **Clear History**  
+  Users can clear the prediction history whenever required.
+
 ## Technologies Used
 
 - Python
@@ -43,40 +66,6 @@ Two classification models were explored:
 
 The trained model and TF-IDF vectorizer were saved using Joblib and integrated into the Streamlit application.
 
-## Streamlit Application
-
-The project includes an interactive Streamlit application that allows users to:
-
-- Enter news article text
-- Upload `.txt` files
-- Upload `.pdf` files
-- Get a Real or Fake prediction
-- View prediction confidence
-- View previous predictions during the session
-
-## ✨ Features
-
-- 📰 **Real/Fake News Classification**  
-  Classifies a news article as Real or Fake using a trained machine learning model.
-
-- 📊 **Confidence Breakdown**  
-  Displays a visual percentage breakdown showing how strongly the model predicts the article as Real or Fake.
-
-- 📄 **PDF File Upload**  
-  Users can upload a PDF containing a news article, and the application extracts the text for classification.
-
-- 📝 **TXT File Upload**  
-  Users can upload a `.txt` file containing news article text for analysis.
-
-- ✍️ **Manual Article Input**  
-  Users can directly paste or type a news article into the application.
-
-- 🕒 **Prediction History**  
-  The application keeps a history of articles checked during the current session, including the prediction and confidence.
-
-- 🗑️ **Clear History**  
-  Users can clear the prediction history whenever required.
-
 ## 📊 Results
 
 Two machine learning models were evaluated for fake and real news classification.
@@ -87,6 +76,17 @@ Two machine learning models were evaluated for fake and real news classification
 | Multinomial Naive Bayes | 95.19% | 94.65% | 95.31% | 94.98% |
 
 Logistic Regression was selected as the final model and integrated into the Streamlit application.
+
+## Streamlit Application
+
+The project includes an interactive Streamlit application that allows users to:
+
+- Enter news article text
+- Upload `.txt` files
+- Upload `.pdf` files
+- Get a Real or Fake prediction
+- View prediction confidence
+- View previous predictions during the session
 
 ## Project Structure
 
